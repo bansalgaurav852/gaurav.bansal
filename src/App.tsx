@@ -5,11 +5,11 @@ import Portfolio from './experience';
 
 
 const Home: React.FC = () => {
-  const [currentSection, setCurrentSection] = useState('Me');
+  const [currentSection, setCurrentSection] = useState('Home');
 
   // A map to associate hash URLs with section titles
   const sectionMap: { [key: string]: string } = {
-    '#home': 'Me',
+    '#home': 'Home',
     '#skills': 'Skills',
     '#projects': 'Projects',
     '#about': 'About',
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash || '#home'; // Default to home
-      setCurrentSection(sectionMap[hash] || 'Me'); // Fallback to 'Developer'
+      setCurrentSection(sectionMap[hash] || 'Home'); // Fallback to 'Developer'
     };
 
     // Call the function when component mounts and whenever the URL hash changes
@@ -187,7 +187,11 @@ const Home: React.FC = () => {
                 , asset: "/project-image/pccs.webp"
               }
             ].map((project) => (
-              <div className='example-5'
+
+              <a className='example-5'
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
                   <rect
@@ -200,11 +204,8 @@ const Home: React.FC = () => {
                   />
                 </svg>
 
-                <a
+                <div
                   key={project.name}
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className=" p-5 flex w-full h-full bg-gray-800 rounded-lg  transition duration-300"
 
                 >
@@ -227,8 +228,8 @@ const Home: React.FC = () => {
                   </div>
 
 
-                </a>
-              </div>
+                </div>
+              </a>
 
 
 
