@@ -1,0 +1,26 @@
+.example-5 {
+    position: relative;
+}
+
+.example-5 svg {
+    position: absolute;
+}
+
+.example-5 .line {
+    stroke-dasharray: 260;
+    stroke-width: 1.25px;
+    fill: transparent;
+    z-index: 1;
+    stroke: rgba(75, 125, 232, 0.77);
+    animation: svgAnimation 2s linear infinite;
+}
+
+@keyframes svgAnimation {
+    from {
+        stroke-dashoffset: 0;
+    }
+
+    to {
+        stroke-dashoffset: 1000;
+    }
+}
