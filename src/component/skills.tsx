@@ -11,10 +11,10 @@ const Skills = () => {
         { name: "RESTful APIs", icon: <SiApollographql className="h-8 w-8 text-pink-500 mx-auto" /> },
         { name: "GraphQL APIs", icon: <SiGraphql className="h-8 w-8 text-pink-500 mx-auto" /> },
         { name: "State Management", icon: <SiXstate className="h-8 w-8 text-green-500 mx-auto" /> },
-        { name: "SwiftUI", icon: <SiSwift className="h-8 w-8 text-orange-500 mx-auto" /> },
         { name: "Web Frontend", icon: <SiCss3 className="h-8 w-8 text-blue-500 mx-auto" /> },
         { name: "App Publishing", icon: <SiGoogle className="h-8 w-8 text-green-400 mx-auto" /> },
         { name: "Google AdMob", icon: <SiGoogleads className="h-8 w-8 text-red-400 mx-auto" /> },
+        { name: "SwiftUI", icon: <SiSwift className="h-8 w-8 text-orange-500 mx-auto" /> },
         { name: "MySQL", icon: <SiMysql className="h-12 w-12 text-orange-500 mx-auto" /> },
     ];
 
