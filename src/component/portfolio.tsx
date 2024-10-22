@@ -44,7 +44,12 @@ const Portfolio = () => {
                 />
             </div>
             {/* <Typewriter text="Hi, I'm Gaurav 👋" cursor={false} /> */}
-            <h1 className="text-4xl font-bold mb-4">Hi, I'm Gaurav 👋</h1>
+            <h1 className="text-4xl font-bold mb-4 flex items-center justify-center"><p className='mr-1'>
+                Hi, I'm Gaurav
+            </p>
+                <span className="animate-wave inline-block text-4xl">👋</span>
+
+            </h1>
             <h2 className="text-2xl font-semibold mb-4">Software Developer</h2>
             <div className="max-w-3xl mx-auto px-2 mb-6 text-white rounded-lg shadow-md">
 
@@ -57,8 +62,8 @@ const Portfolio = () => {
                 </p>
 
             </div>          <div className="flex justify-center space-x-4">
-                <a href="#contact" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">
-                    Contact me
+                <a target='_blank' href="https://drive.google.com/file/d/1dzpjOo_-Sg6RyCaUpxFBHwoy-PEcYe8i/view?usp=sharing" className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">
+                    My Resume
                 </a>
                 <a href="#projects" className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
                     My Projects
