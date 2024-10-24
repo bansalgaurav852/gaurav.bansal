@@ -11,9 +11,6 @@
 - [Running the Project](#running-the-project)
 - [Building for Production](#building-for-production)
 - [Project Structure](#project-structure)
-- [Available Scripts](#available-scripts)
-- [Learn More](#learn-more)
-
 ---
 
 ## Introduction 🚀
@@ -29,7 +26,7 @@
 
 ---
 
-[![Website Demo](portfolio.png)](https://gaurav-bansal.vercel.app)
+[![Website Demo](./public/portfolio.png)](https://gaurav-bansal.vercel.app)
 
 Explore the live version of the website and see it in action. If you find it useful, don't forget to leave a ⭐ on the repo!
 
@@ -132,41 +129,6 @@ The project structure is organized as follows:
 
 ---
 
-## Available Scripts 📜
-
-In the project directory, you can run the following scripts:
-
-- **Start Development Server**:  
-   ```bash 
-   npm run dev
-   ```
-   Starts the development server on `http://localhost:5173` with Hot Module Replacement (HMR) enabled.
-
-- **Build for Production**:  
-   ```bash
-   npm run build
-   ```
-   Builds the app for production, optimizing assets for faster loading times. The final build output will be in the `dist/` folder.
-
-- **Preview Production Build**:  
-   ```bash 
-   npm run preview
-   ```
-   Runs a local server to preview the production build.
-
-- **Lint the Code**:  
-   ```bash 
-   npm run lint
-   ```
-   Lints the code according to the project's linting rules (ESLint or similar tools, if configured).
-
----
-
-## Learn More 📚
-
-To learn more about Vite and React.js, check out the following resources:
-
-- [Vite Documentation](https://vite.dev/guide/)
-- [React Documentation](https://react.dev/learn)
+Made with :heart: in India
 
 ---
