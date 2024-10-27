@@ -78,6 +78,13 @@ const Projects: React.FC = () => {
             asset: "./portfolio.png"
         },
         {
+            name: "Design Agency",
+            description: "Agency web landing page",
+            link: "https://agency-web-landing-page.vercel.app/",
+            image: "",
+            asset: "/project-image/designagency.jpg"
+        },
+        {
             name: "Todo App",
             description: "Todo ",
             link: "https://github.com/bansalgaurav852/todoapp",
